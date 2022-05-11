@@ -74,7 +74,7 @@ if __name__ == "__main__":
         exit(-1)
     
     qualities = GetAvailableQuality(realRoomId)
-    print("请选择清晰度并输入对应序号(只有直播间网页有的选项才有效)：")
+    print("请选择清晰度并输入对应序号(可能只有直播间网页有的选项才有效)：")
     for i in range(len(qualities[1])):
         print(str(i) + ": " + qualities[1][i])
     strQuality = input()
